@@ -1,16 +1,16 @@
-// import { Pane } from 'https://cdn.skypack.dev/tweakpane@4.0.4';
+import { Pane } from 'https://cdn.skypack.dev/tweakpane@4.0.4';
 import gsap from 'https://cdn.skypack.dev/gsap@3.12.0';
 import ScrollTrigger from 'https://cdn.skypack.dev/gsap@3.12.0/ScrollTrigger';
 
 const config = {
-  theme: 'system',
+  theme: 'light',
   start: gsap.utils.random(0, 100, 1),
   end: gsap.utils.random(900, 1000, 1),
   scroll: true };
 
 
 const ctrl = new Pane({
-  title: 'Config',
+  title: 'Testeo',
   expanded: false });
 
 

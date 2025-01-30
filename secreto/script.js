@@ -19,7 +19,7 @@ const params = {
     fontName: "Verdana",
     isBold: false,
     fontSize: 80,
-    text: "fluid",
+    text: "sirena secreta",
     pointerSize: null,
     color: {r: 1., g: .0, b: .5}
 };
